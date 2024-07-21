@@ -1,2 +1,0 @@
-pandas==2.2.2
-javalang==0.13.0
