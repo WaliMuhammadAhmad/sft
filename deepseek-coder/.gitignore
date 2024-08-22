@@ -1,0 +1,7 @@
+# virtual environment
+env/
+
+# large dir's
+data/
+model/
+result/
