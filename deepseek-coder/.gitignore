@@ -5,3 +5,5 @@ env/
 data/
 model/
 result/
+CODEX-deepseek-coder-1.3b-instruct/
+tokenizer/
