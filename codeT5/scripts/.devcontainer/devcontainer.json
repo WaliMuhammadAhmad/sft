@@ -1,0 +1,19 @@
+{
+    "name": "PyTorch Docker Container",
+    "dockerFile": "pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel",    // change this for Docker Image
+    "context": ".",
+    "appPort": [
+        8888
+    ], // Adjust if needed
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ],
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python"
+            }
+        }
+    }
+}
